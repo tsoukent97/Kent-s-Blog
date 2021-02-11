@@ -32,3 +32,6 @@
     padding-left: 40px;
     box-sizing: border-box;
 }
+ul li:hover a{
+    padding-left: 50px;
+}
