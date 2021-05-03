@@ -93,17 +93,23 @@ label #cancel{
     margin-left: 250px;
 }
 section {
-    background: url(https://wallpapercave.com/wp/wp5129836.jpg) no-repeat;
+    background: url(https://wallpapercave.com/wp/wp5129836.jpg) no-repeat ;
     background-position: center;
     background-size: cover;
     height: 100vh;
     transition: all .5s ease;
     text-align: center;
-    font-size: 50px;
     color: white;
     padding-top: 10%;
+    font-size: 40px;
 }
 .fa-customize{
     font-size: 15px;
+}
+
+@media only screen and (max-width: 320px) and (max-width: 768px) and (max-width: 1200px) {
+    section {
+        font-size: 10vw;
+    }
 }
 
