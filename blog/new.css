@@ -107,9 +107,23 @@ section {
     font-size: 15px;
 }
 
-@media only screen and (max-width: 320px) and (max-width: 768px) and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     section {
-        font-size: 10vw;
+        font-size: 60px;
+        color: red
     }
 }
 
+@media only screen and (max-width: 768px) {
+    section {
+        font-size: 40px;
+        color: yellow;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    section {
+        font-size: 20px;
+        color:black
+    }
+}
